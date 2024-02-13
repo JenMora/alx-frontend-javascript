@@ -1,5 +1,4 @@
-// Define the function using arrow syntax
-const getNeighborhoodsList = () => {
+export default getNeighborhoodsList;
   // Initialize an array property 'sanFranciscoNeighborhoods'
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
@@ -10,8 +9,3 @@ const getNeighborhoodsList = () => {
     
     // Return the updated array
     return this.sanFranciscoNeighborhoods;
-  };
-};
-
-// Export the function as the default export
-export default getNeighborhoodsList;
